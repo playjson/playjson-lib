@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC","sourcesContent":["export { run } from './playjson';\n"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AAEjC,OAAO,EAAE,GAAG,EAAE,CAAC;AACd,MAAc,CAAC,QAAQ,GAAG,EAAE,GAAG,EAAE,CAAA","sourcesContent":["import { run } from './playjson';\n\nexport { run };\n(window as any).PlayJSON = { run }\n"]}

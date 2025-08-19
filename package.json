@@ -1,12 +1,19 @@
 {
   "name": "playjson-lib",
   "type": "module",
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "types": "./lib/types/index.d.ts",
   "main": "./lib/index.js",
+  "unpkg": "lib/playjson.min.js",
+  "jsdelivr": "lib/playjson.min.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --outfile=lib/playjson.min.js",
+    "prepublishOnly": "yarn build"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^24.2.1",
+    "esbuild": "^0.25.9",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2"

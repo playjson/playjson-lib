@@ -1,1 +1,4 @@
-export { run } from './playjson';
+import { run } from './playjson';
+
+export { run };
+(window as any).PlayJSON = { run }
