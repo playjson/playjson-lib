@@ -1,0 +1,1 @@
+{"version":3,"file":"playjson.js","sourceRoot":"","sources":["../src/playjson.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,GAAG,CAAC,IAAU;IAC5B,KAAK,CAAC,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,CAAC;AAC9B,CAAC","sourcesContent":["import { Game } from './interface';\n\nexport function run(game: Game) {\n  alert(JSON.stringify(game));\n}"]}
